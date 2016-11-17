@@ -49,4 +49,10 @@ app.get('/about' , (req, res) => {
 	});
 });
 
+app.get('/projects' , (req, res) => {
+	res.render('portfolio.hbs', {
+		pageTitle : 'Porfolio'
+	});
+});
+
 app.listen(port , () => console.log(`Example app listening on port ${port}.`));

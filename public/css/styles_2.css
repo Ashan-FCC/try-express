@@ -1,0 +1,96 @@
+<style type="text/css">
+	body {
+		background:url("http://cdn.wallpapersafari.com/20/70/RAZY4q.jpg") no-repeat center center fixed;
+	}
+
+	hr {
+		font-size: 10px;
+	}
+	.nav {
+		float:right;
+	}
+	.nav-item {
+		margin : 20px 30px 10px 30px;
+	}
+	ul>li>a {
+		margin-right: 20px;
+		border-left: white;
+	}
+	.header-image {
+  	background: url("https://static.pexels.com/photos/34676/pexels-photo.jpg") no-repeat center center fixed;
+  	background-size: cover;
+	}
+
+	.header {
+	  padding-top: 20%;
+	  padding-bottom: 25%;
+	  color: white;
+	  text-shadow: 2px 2px 2px black;
+	  text-align: center;
+	}
+
+	.about {
+		margin-top: 20px;
+	}
+
+	#Contact {
+		margin-bottom: 20px;
+	}
+	#Contact {
+	padding: 20px 0 40px 0;
+	color: #121d1f;
+	text-align: center;
+}
+
+#Contact .row {
+	padding: 20px 0 20px 0;
+}
+	#Contact i.fa {
+	font-size: 20px;
+	padding: 5px;
+	color: #000;
+	text-align: center;
+}
+#Contact .social i.fa {
+	font-size: 30px;
+	padding: 4px 5px;
+	color: #000;
+	transition: all 0.5s;
+}
+#About h3{
+	text-align: center;
+}
+#About p{
+	text-align: left;
+	margin-top: 20px;
+	float : left;
+}
+
+
+#About img {
+	align-content: right;
+	margin-top: 20px;
+}
+
+#Portfolio h3{
+	text-align : center;
+}
+
+#Portfolio .topspace {
+	margin-top : 20px;
+}
+#Portfolio a:hover {
+    text-decoration: none;
+}
+#Portfolio a:link {
+    text-decoration: none;
+}
+
+#Portfolio i{
+	font-size: 30px;
+}
+#Portfolio .caption h3 p{
+	color : #000;
+}
+
+</style>
