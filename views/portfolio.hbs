@@ -1,64 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Ashan Perera - Software Developer</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles_2.css">
-	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-</head>
-<body>
-<div class="container">
-	<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-        </button>
-        <a class="navbar-brand" href="#home">Ashan Perera</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse-1">
-        <ul class="nav navbar-nav pull-right" role="navigation">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  {{> header}}
 
-<!-- Home -->
-<section id="Home">
-  <div class="header-image" id="home">
-    <div class="header container">
-      <h1>Ashan Perera</h1>
-      <hr>
-      <h3>Software Developer</h3>
-    </div>
-  </div>
- </section>
-  <!-- END Home -->
-	<hr>
-<!-- About -->
-<section id="About">
-<div class="about">
-	<h3>About Me</h3>
-<div class="row">
-	<div class="col-md-6 col-md-offset-1">
-  		<p>My name is Ashan Perera and I'm a Software Developer in Bangkok, Thailand. My passion is to use technology based solutions, to help solve real world challenges. Currently I'm working through the FreeCodeCamp certifications. I also like to play with Machine Learning in my spare time.</p>
-	</div>
-	<div class="col-xs-5 col-md-5">
-		<img src="http://i63.tinypic.com/a0z310.jpg" border="0" alt="Image and video hosting by TinyPic" style="width:250px" class="img-responsive img-circle">
-	</div>
-</div>
-</div>
-</section>
-  <!-- End About -->
+  {{> nav}}
+
 	<hr>
   <!-- Portfolio -->
   <section id="Portfolio">
-  	<h3>Portfolio</h3>
+     <div class="text-center">
+        <h3>Portfolio</h3>
+    </div>
+  
   	<div class="row topspace">
   		<div class="col-md-4 col-xs-6">
   			<div class="thumbnail">
@@ -100,39 +50,6 @@
 
   </section>
   <!-- End Portfolio -->
-	<hr>
-  <!-- Contact -->
-  <section id="Contact">
-  	<h3>Contact</h3>
-  	<div class="row">
-  		<col-md-8 class="col-offset-2">
-  			<div class="col-md-4">
-			<i class="fa fa-map-marker fa-2x center"></i>
-        <p>10/223-224, Regent Home,<br>Sanphawut Soi 2, Bangna, Bangkok,<br>Thailand</p>
-  			</div>
-  			<div class="col-md-4">
-  			<i class="fa fa-envelope-o fa-2x center"></i>
-        <p>nawin.perera@gmail.com</p></div>
-  			<div class="col-md-4">
-  			<i class="fa fa-phone fa-2x center"></i>
-        <p> +66 83 700 3606</div>
-  		</col-md-8>
-  	</div>
-  	<div class="row">
-  	<div class="social">
-  		<col-md-8 class="col-offset-2">
-  			<div class="col-md-4"><a href="https://www.facebook.com/ashan.navin" target="_blank"><i class="fa fa-facebook"></i></a></div>
-  			<div class="col-md-4"><a href="https://github.com/Ashan-FCC" target="_blank"><i class="fa fa-github"></i></a></div>
-  			<div class="col-md-4"><a href="https://th.linkedin.com/in/ashannperera" target="_blank"><i class="fa fa-linkedin"></i></a></div>
-  		</col-md-8>
-  	</div>
-  	</div>
-
-  </section>
-  <!-- End Contact -->
-	
-	</div>
-
   {{> footer }}
 </body>
 </html>
